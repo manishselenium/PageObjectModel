@@ -6,6 +6,7 @@
     <classes>
       <class name="testCases.TC003_LoginDPTest">
         <methods>
+          <include name="tearDown"/>
           <include name="login" invocation-numbers="0 1 3"/>
           <include name="setup"/>
         </methods>
